@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: #191919;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 150px;
+}
+h1{
+    font-size: 53px;
+    color: white;
+    margin-bottom: 12px;
+}
+input{
+text-align: start;
+    width: 286px;
+height: 42px;
+border-radius: 54px;
+cursor: pointer;
+user-select: none;
+margin-bottom: 12px;
+
+}
+
+button{
+    padding: 16px 28px;
+    text-align: center;
+    margin: 2px 1px;
+}
